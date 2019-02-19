@@ -1,0 +1,70 @@
+body {
+	background-color: lightgray;
+}
+
+#container {
+	width: 50%;
+	padding: 2%;
+	background-color: white;
+	margin: auto;
+}
+
+.input-group {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.half {
+	width: 49%;
+}
+
+.half.left {
+	float: left;
+}
+
+.half.right {
+	float: right;
+}
+
+.input-group label {
+	width: 100%;
+	font-family: heveltica;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.input-group input, .input-group select {
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 2px;
+}
+
+.input-group input.error, .input-group select.error {
+	border: 2px solid red;
+}
+
+.input-group p.error {
+	font-family: heveltica;
+	color: red;
+	height: 8px;
+	margin: 0;
+}
+
+.not-error {
+	border: 2px solid lightgray !important;
+}
+
+.button-group {
+	width: 50%;
+	margin: auto;
+}
+
+.button-group input {
+	font-size: 14pt;
+	width: 90px;
+	border-radius: 5px;
+}
+
+#cancel-button {
+	float: right;
+}

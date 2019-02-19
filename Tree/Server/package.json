@@ -1,0 +1,23 @@
+{
+  "name": "tree-server",
+  "version": "1.0.0",
+  "description": "Server part of project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brazilrules/upwork-assignment.git"
+  },
+  "author": "Leonardo Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brazilrules/upwork-assignment/issues"
+  },
+  "homepage": "https://github.com/brazilrules/upwork-assignment#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
